@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec9670a-8ce8-4dd6-9893-ea9cbbdf8f1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/433Utils" beforeDir="false" afterPath="$PROJECT_DIR$/433Utils" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/433Utils/RPi_utils/RFSniffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/433Utils/RPi_utils/RFSniffer.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574953189622</updated>
-      <workItem from="1574953190720" duration="2769000" />
+      <workItem from="1574953190720" duration="3390000" />
     </task>
     <servers />
   </component>
