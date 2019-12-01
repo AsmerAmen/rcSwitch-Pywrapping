@@ -1,6 +1,8 @@
 from ctypes import cdll, c_long
 
-hello_lib = cdll.LoadLibrary("rfSniffer.so")
-rfValue = hello_lib.getValue
+rf_lib = cdll.LoadLibrary("rfSniffer.so")
+rfInit = rf_lib.init
+rfValue = rf_lib.getValue
+rfInit()
 rfValue.restype = c_long
 print(rfValue())
