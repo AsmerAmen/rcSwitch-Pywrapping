@@ -153,4 +153,5 @@ class RCSwitch {
     
 };
 
+extern RCSwitch myRC;
 #endif

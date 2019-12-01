@@ -694,4 +694,5 @@ void RECEIVE_ATTR RCSwitch::handleInterrupt() {
   RCSwitch::timings[changeCount++] = duration;
   lastTime = time;  
 }
+RCSwitch myRC;
 #endif

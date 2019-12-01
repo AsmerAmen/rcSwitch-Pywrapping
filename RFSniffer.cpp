@@ -1,19 +1,19 @@
 
 #include "RCSwitch.h"
 #define PIN 2
-RCSwitch mySwitch;
+//RCSwitch mySwitch;
 
  
 extern "C"{
     void init(){
-        mySwitch.enableReceive(PIN);
+        myRC.enableReceive(PIN);
     }
 
-    
+
     unsigned long getValue(){
         unsigned long value = 0UL;
-        if (mySwitch.available()) {
-            value = mySwitch.getReceivedValue();
+        if (myRC.available()) {
+            value = myRC.getReceivedValue();
             /*
             if (value == 0UL) {
               printf("Unknown encoding\n");
@@ -23,7 +23,7 @@ extern "C"{
             fflush(stdout);
             */
 
-            mySwitch.resetAvailable();
+            myRC.resetAvailable();
         }
         return value;
     }
