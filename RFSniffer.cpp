@@ -1,12 +1,12 @@
 
 #include "RCSwitch.h"
-#define PIN 3
+//#define PIN 3
 //RCSwitch mySwitch;
 
  
 extern "C"{
     int init(int inputPin){
-        if(wiringPiSetup()<0){
+        if(wiringPiSetupGpio()<0){
 //            cout<<"setup wiring pi failed"<<endl;
             return 0;
         }

@@ -14,7 +14,7 @@ rfValue = rf_lib.getValue
 rfValue.restype = c_int
 
 # print(1)
-if rfInit(WPi_PIN):
+if rfInit(BCM_PIN):
     print('success')
 else:
     print('7mada')
