@@ -1,3 +1,10 @@
+# Author : Asmer Amen
+# Last update: 1 Dec 2019
+# To run:
+# #  g++ -shared -fPIC RFSniffer.cpp RCSwitch.cpp RCSwitch.h -o rfSniffer.so -lwiringPi -lwiringPiDev -lcrypt
+# #  export LD_LIBRARY_PATH=.
+# #  python3 rf_recv.py
+
 from ctypes import cdll, c_long, c_int
 from time import sleep
 import RPi.GPIO as GPIO
