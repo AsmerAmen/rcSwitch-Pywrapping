@@ -1,7 +1,8 @@
 
 #include "RCSwitch.h"
-     
+#define PIN 2
 RCSwitch mySwitch;
+mySwitch.enableReceive(PIN);
  
 extern "C" unsigned long getValue(){
     unsigned long value = 0UL;
