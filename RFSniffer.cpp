@@ -5,8 +5,13 @@
 
  
 extern "C"{
-    void init(){
+    int init(){
+        if(wiringPiSetup()<0){
+//            cout<<"setup wiring pi failed"<<endl;
+            return 0;
+        }
         myRC.enableReceive(PIN);
+        return 1;
     }
 
 

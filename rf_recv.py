@@ -1,10 +1,14 @@
-from ctypes import cdll, c_long
+from ctypes import cdll, c_long, c_int
 
 rf_lib = cdll.LoadLibrary("rfSniffer.so")
 rfInit = rf_lib.init
 rfValue = rf_lib.getValue
+rfValue.restype = c_int
 print(1)
-rfInit()
+if rfInit():
+    print('success')
+else:
+    print('7mada')
 print(2)
 rfValue.restype = c_long
 print(rfValue())
