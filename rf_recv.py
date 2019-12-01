@@ -2,7 +2,7 @@ from ctypes import cdll, c_long, c_int
 from time import sleep
 import RPi.GPIO as GPIO
 
-PIN = 2
+PIN = 3
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(PIN, GPIO.IN)
@@ -13,7 +13,7 @@ rfValue = rf_lib.getValue
 rfValue.restype = c_int
 
 # print(1)
-if rfInit():
+if rfInit(PIN):
     print('success')
 else:
     print('7mada')
