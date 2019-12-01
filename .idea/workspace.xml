@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4ec9670a-8ce8-4dd6-9893-ea9cbbdf8f1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RFSniffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RFSniffer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rf_recv.py" beforeDir="false" afterPath="$PROJECT_DIR$/rf_recv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574953189622</updated>
       <workItem from="1574953190720" duration="4430000" />
-      <workItem from="1575194750009" duration="6285000" />
+      <workItem from="1575194750009" duration="6720000" />
     </task>
     <servers />
   </component>

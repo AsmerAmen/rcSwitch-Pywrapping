@@ -2,7 +2,7 @@ from ctypes import cdll, c_long, c_int
 from time import sleep
 import RPi.GPIO as GPIO
 
-BCM_PIN = 27
+BCM_PIN = 2 #GPIO2
 WPi_PIN = 2
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
