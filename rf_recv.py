@@ -1,5 +1,5 @@
 from ctypes import cdll, c_long, c_int
-from time import time
+from time import sleep
 rf_lib = cdll.LoadLibrary("rfSniffer.so")
 rfInit = rf_lib.init
 rfValue = rf_lib.getValue
@@ -13,4 +13,4 @@ else:
 rfValue.restype = c_long
 while True:
     print("Recv: :", rfValue())
-    time.sleep(0.100)
+    sleep(0.100)
