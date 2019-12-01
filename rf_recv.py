@@ -3,7 +3,7 @@ from time import sleep
 import RPi.GPIO as GPIO
 
 PIN = 2
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(PIN, GPIO.IN)
 
