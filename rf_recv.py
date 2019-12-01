@@ -3,10 +3,10 @@ from time import sleep
 import RPi.GPIO as GPIO
 
 BCM_PIN = 2 #GPIO2
-WPi_PIN = 2
+#WPi_PIN = 2
 GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-GPIO.setup(BCM_PIN, GPIO.IN)
+# GPIO.setwarnings(False)
+# GPIO.setup(BCM_PIN, GPIO.IN)
 
 rf_lib = cdll.LoadLibrary("rfSniffer.so")
 rfInit = rf_lib.init
