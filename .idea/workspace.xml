@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rf_recv.py" beforeDir="false" afterPath="$PROJECT_DIR$/rf_recv.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +21,11 @@
   </component>
   <component name="ProjectId" id="1UFXCXRzhcFNARrm2Hxo19PhddD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -36,15 +40,15 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -59,7 +63,9 @@
       <option name="presentableId" value="Default" />
       <updated>1574953189622</updated>
       <workItem from="1574953190720" duration="4430000" />
-      <workItem from="1575194750009" duration="8246000" />
+      <workItem from="1575194750009" duration="8327000" />
+      <workItem from="1575890068350" duration="47000" />
+      <workItem from="1578825010773" duration="35000" />
     </task>
     <servers />
   </component>
@@ -78,5 +84,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="389" y="380" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575890084668">
+      <screen x="47" y="283" width="1319" height="741" />
+    </state>
+    <state x="389" y="380" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/47.283.1319.741/1366.0.1280.1024@47.283.1319.741" timestamp="1575890084668" />
   </component>
 </project>

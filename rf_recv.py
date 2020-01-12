@@ -9,7 +9,8 @@ from ctypes import cdll, c_long, c_int
 from time import sleep
 import RPi.GPIO as GPIO
 
-BCM_PIN = 2 #GPIO2
+# BCM_PIN = 2 #GPIO2
+BCM_PIN = 7 #GPIO7
 #WPi_PIN = 2
 GPIO.setmode(GPIO.BCM)
 # GPIO.setwarnings(False)
