@@ -1,5 +1,5 @@
 
-#include "RCSwitch.h"
+#include "RC_Switch.h"
 //#define PIN 3
 //RCSwitch mySwitch;
 

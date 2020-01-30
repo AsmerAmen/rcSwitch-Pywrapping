@@ -29,5 +29,8 @@ else:
 # print(2)
 rfValue.restype = c_long
 while True:
-    print("Recv: :", rfValue())
-    sleep(1)  # 1 second
+    val = rfValue()
+    if val > 0:
+        print("Recv: :", val)
+    #print("Recv: :", rfValue())
+    #sleep(1)  # 1 second

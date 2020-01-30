@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec9670a-8ce8-4dd6-9893-ea9cbbdf8f1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RC_Switch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RC_Switch.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RFSniffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RFSniffer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rf_recv.py" beforeDir="false" afterPath="$PROJECT_DIR$/rf_recv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,17 +30,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/433Utils" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -65,7 +69,9 @@
       <workItem from="1574953190720" duration="4430000" />
       <workItem from="1575194750009" duration="8327000" />
       <workItem from="1575890068350" duration="47000" />
-      <workItem from="1578825010773" duration="35000" />
+      <workItem from="1578825010773" duration="1326000" />
+      <workItem from="1578833306227" duration="72000" />
+      <workItem from="1580379739068" duration="616000" />
     </task>
     <servers />
   </component>
